@@ -1,15 +1,47 @@
-body {
-  font-family: 'Roboto', sans-serif;
+:root {
+  /* text */
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --secondary-text-color: #f4f4fd;
+  /* background colors */
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #f4f4fd;
+  --acent-backgrond-color: #2e2f42;
+  /* logo */
+  --first-logo-color: #4d5ae5;
+  --second-logo-color: #2e2f42;
 }
+
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+/* HEADER */
+.menu-item {
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+
+.
+/* LOGO */
 
 .logo {
-  font-family: 'Raleway', sans-serif;
-}
-
-.list {
-  list-style: none;
-}
-
-.link {
+  color: var(--second-logo-color);
+  font-family: Raleway, serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
   text-decoration: none;
+}
+
+.logo-acent {
+  color: var(--first-logo-color);
 }
