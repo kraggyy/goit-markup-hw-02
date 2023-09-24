@@ -1,0 +1,15 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
