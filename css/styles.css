@@ -2,7 +2,7 @@
   /* text */
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
-  --secondary-text-color: #ffffff;
+  --secondary-text-color: #f4f4fd;
   --hover-text-color: #404bbf;
   /* background colors */
   --primary-background-color: #ffffff;
@@ -10,8 +10,8 @@
   --acent-backgrond-color: #2e2f42;
   --second-acent-background-color: #f4f4fd;
   /* logo */
-  --first-logo-color: #4d5ae5;
-  --second-logo-color: #2e2f42;
+  --second-logo-color: #4d5ae5;
+  --first-logo-color: #2e2f42;
   /* buttons */
   --button-color: #4d5ae5;
   --button-hover-color: #404bbf;
@@ -27,30 +27,39 @@ body {
   letter-spacing: 0.32px;
 }
 
-/*        HEADER          */
-.page-header {
-  border-bottom: 1px solid var(--secondary-background-color);
+.link {
+  text-decoration: none;
 }
 
-.menu-list {
+.list {
   list-style-type: none;
 }
-.menu-list .link {
+
+/*        HEADER          */
+/* .page-header {
+  border-bottom: 1px solid var(--secondary-background-color);
+} */
+
+.menu .link {
   color: var(--title-text-color);
   font-weight: 500;
   text-decoration: none;
 }
 
-.menu-list .link:hover,
-.menu-list .link:focus {
+.menu .link:hover,
+.menu .link:focus {
   color: var(--hover-text-color);
+}
+
+.page-header-address {
+  font-style: normal;
 }
 
 /* LOGO */
 
 .logo {
   color: var(--second-logo-color);
-  font-family: Raleway, serif;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
@@ -65,18 +74,12 @@ body {
 
 /* ADDRESS */
 
-.contact-list {
-  list-style-type: none;
-  font-style: normal;
-}
-
-.contact-list .link {
+.contact .link {
   color: var(--primary-text-color);
-  text-decoration: none;
 }
 
-.contact-list .link:hover,
-.contact-list .link:focus {
+.contact .link:hover,
+.contact .link:focus {
   color: var(--hover-text-color);
 }
 
@@ -105,7 +108,7 @@ body {
   letter-spacing: 0.64px;
   cursor: pointer;
 
-  border-radius: 4px;
+  /* border-radius: 4px; */
   background: var(--button-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -117,13 +120,9 @@ body {
 
 /* FEATCHURES */
 
-.featchures-logic-title {
+/* .featchures-logic-title {
   display: none;
-}
-
-.featchures-list {
-  list-style-type: none;
-}
+} */
 
 .featchures-title {
   color: var(--title-text-color);
@@ -140,19 +139,15 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.12; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
-}
-
-.specifications-list {
-  list-style-type: none;
 }
 
 /* TEAM MEMBERS */
 
 .team-members {
-  background-color: var(--secondary-background-color);
+  background-color: var(--second-acent-background-color);
 }
 
 .team-members-title {
@@ -160,13 +155,9 @@ body {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.12; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
-}
-
-.team-members-list {
-  list-style-type: none;
 }
 
 .team-members-item {
@@ -187,29 +178,19 @@ body {
   color: var(--secondary-text-color);
 }
 
-.logo-footer {
+.logo-footer-acent {
   color: var(--secondary-text-color);
-  font-family: Raleway, serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 
 /*    PORTFOLIO     */
 
-.portfolio-logic-title {
+/* .portfolio-logic-title {
   display: none;
-}
-
-.portfolio-categories-list {
-  list-style-type: none;
-}
+} */
 
 .category-button {
   color: var(--button-color);
+  font-family: inherit;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -217,7 +198,7 @@ body {
   letter-spacing: 0.64px;
   cursor: pointer;
 
-  border-radius: 4px;
+  /* border-radius: 4px; */
   border: 1px solid var(--secondary-background-color);
   background: var(--second-acent-background-color);
 }
@@ -228,10 +209,6 @@ body {
   background: var(--button-hover-color);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-
-.portfolio-list {
-  list-style-type: none;
 }
 
 .portfolio-item {
