@@ -37,9 +37,6 @@ body {
 }
 
 /*        HEADER          */
-/* .page-header {
-  border-bottom: 1px solid var(--secondary-background-color);
-} */
 
 .menu .link {
   color: var(--title-text-color);
@@ -109,7 +106,6 @@ body {
   letter-spacing: 0.64px;
   cursor: pointer;
 
-  /* border-radius: 4px; */
   background: var(--button-color);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
@@ -191,7 +187,6 @@ body {
   letter-spacing: 0.64px;
   cursor: pointer;
 
-  /* border-radius: 4px; */
   border: 1px solid var(--secondary-background-color);
   background: var(--second-acent-background-color);
 }
@@ -214,4 +209,8 @@ body {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
+}
+
+.portfolio-item-category {
+  color: var(--primary-text-color);
 }
